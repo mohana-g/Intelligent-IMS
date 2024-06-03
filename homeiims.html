@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cars IIMS</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lugrasimo">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<style>
+body {
+    background-image: url("https://i.pinimg.com/originals/62/26/43/6226435516042edfe1a4514a44e2023a.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 20%;
+    font-family: "Lugrasimo", sans-serif;
+}
+h1{
+    color:#fff;
+    font-size:70px;
+    text-align:center;
+    font-weight:bolder;
+}
+.ims_text{
+    background: -webkit-linear-gradient(aqua,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn{
+    position: absolute;
+    bottom:5%;
+    right: 5%;
+    background-color: rgba(255,255,255,0.7);
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: rgba(255,255,255,1);
+}
+</style>
+</head>
+<body>
+<h1>Intelligent <span class="ims_text">IMS</span></h1>
+<button id="click_btn" class="btn">Talk here <i class="fas fa-comments"></i></button>
+<script>
+    const button = document.getElementById('click_btn');
+    button.addEventListener('click', function() {
+        const newURL = 'file:///D:/Projects/Talk%20here.html';
+        window.open(newURL, '_blank')
+    });
+</script>
+</body>
+</html>
