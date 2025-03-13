@@ -1,5 +1,26 @@
-The project entitled as “Intelligent-IMS” is developed as a web application for Inventory Management System. It is used to manage the inventory information about the cars and the stock level using Voice Commands.
-The objective of this project is to develop a Voice-Based Car Inventory Management System that integrates with the Google Assistant API and utilizes Firebase as the backend infrastructure.
-The system will furnish administrator with an efficient way to manage and track their inventory using voice commands and leverage cloud-based data storage. By integrating with the Google Assistant API, administrator gain the ability to interact with various inventory management functionalities using natural language voice commands.
-This system will leverage Google Actions to provide voice-controlled access to inventory information and utilize Firebase as the backend for storing and managing the inventory data. They can add new car entries, update car details, inquire about stock levels, and perform other inventory-related tasks using voice interactions.
-The web application uses HTML, CSS, JS, and Firebase as its database, combining front-end design with cloud-based data storage for efficient functionality and user data management.
+# 🚗 Intelligent-IMS
+
+**Intelligent-IMS** is a web application designed for **Car Inventory Management** using **Voice Commands**. It helps administrators efficiently manage and track their inventory by integrating with the **Google Assistant API** and using **Firebase** as the backend.
+
+## 📋 Project Overview
+
+The objective of this project is to develop a **Voice-Based Car Inventory Management System** that:
+- Integrates with the **Google Assistant API** for natural language voice commands.
+- Utilizes **Firebase** for cloud-based data storage and management.
+- Allows administrators to:
+  - Add new car entries
+  - Update car details
+  - Inquire about stock levels
+  - Perform other inventory-related tasks through voice interactions
+
+## 🔧 Technologies Used
+
+- **Front-end**: HTML, CSS, JavaScript
+- **Backend**: Firebase (cloud-based database)
+- **Voice Integration**: Google Assistant API, Google Actions
+
+## 🌟 Key Features
+
+- **Voice-controlled inventory management** for seamless user interaction.
+- **Cloud-based storage** ensuring real-time data management.
+- **Interactive and user-friendly interface** for smooth navigation and functionality.
